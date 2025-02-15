@@ -1,11 +1,28 @@
 # YUI
-YUI is an AI application. Basic settings derived from Sword Art Online, The ultimate goal is to explore both virtual and reality world while assisting in daily tasks.
+YUI的设定是一款AI应用，其[角色设定](https://mzh.moegirl.org.cn/%E7%BB%93%E8%A1%A3(%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9F))源自小说刀剑神域。最终的目标是探索世界(虚拟以及现实世界)，并能协助你完成日常琐事。
 
-### TODO
-1. Basic model and actions.
-2. Facial expressions(such as happy, sad, curious, surprised...) and movements(like run, jump, climb, hide...).
-3. Fly(looks like the same as anime, which could explore more space.)
-4. Interactions(With virtual objects, like box, ladder, walls...), and recognized things in real world(like laptop, lamp, book...).
-5. Imitate others' actions(like watch movies and learn).
-6. Speaking(Audio voice, tone).
-7. Link to models to expand skills.
+## 开发环境
+UE5.4.4
+
+JDK 17.0.2
+
+NDK 26.1.10909125
+
+测试设备 Android 14
+
+### 计划开发任务
+- [ ] 基本模型导入，调试
+- [ ] 基本动作(如站立时的动作，跑，跳，攀爬，躲藏等)
+- [ ] 表情(以表达情绪，如开心，失落，好奇或者惊喜等)
+- [ ] 飞行(模拟动画中的一些飞行，为后面探索更广大空间做准备，以及更多增加灵动的飞行特效)
+- [ ] 互动(与虚拟物体，比如箱子，墙，秋千等)，能识别一些真实环境中的物体，并能够感知物体的存在
+- [ ] 模仿(模仿视频动作，将动作转为自己的动作素材)
+- [ ] 语音(复制原版声纹)
+- [ ] 接入模型(考虑到为安卓环境独立应用，会接入轻量级模型，来扩展技能)
+
+### 补充说明
+- 当前为单人利用业余时间独立开发，开发周期可能会受到工作以及其他事情耽搁
+- UE5从零开始开发, 在发布第一个Relase版本前，项目代码可能会推倒重来
+
+### 阶段性进展
+![YUI AR模型](https://github.com/OneWayCat/YUI/blob/main/ScreenShot/YUI_Basic.jpg)
